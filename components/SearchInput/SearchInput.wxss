@@ -1,0 +1,14 @@
+/* components/Sarchinput/SearchInput.wxss */
+.search_input {
+  height: 90rpx;
+  padding: 10rpx;
+  background-color: var(--themeColor);
+}
+.search_input navigator {
+  height: 100%;
+  text-align: center;
+  padding: 14rpx;
+  background-color: #fff;
+  border-radius: 15rpx;
+  color: #666;
+}
