@@ -1,66 +1,106 @@
 //index.js
+//0.引入用来发送请求的方法
+import {
+  request
+} from "../../request/index.js";
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
+    //轮播图数组
+    swiperList: [],
+    catesList:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-    
+  onLoad: function(options) {
+    //1.发送异步请求获取数据
+    //优化手段可以通过ES6的promise来解决
+    // wx.request({
+    //   url: 'https://www.fastmock.site/mock/dec21e0a575c58c9670aee9e8a38c6f8/OnlineShop/swiperdata',
+    //   success:(result)=>{
+    //     // console.log(result);
+    //     this.setData({
+    //       swiperList:result.data.message
+    //     })
+    //   }
+    // });
+    this.getSwiperList();
+    this.getCateList();
   },
-
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
-    
+  onReady: function() {
+
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
-    
+  onShow: function() {
+
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
-  onHide: function () {
-    
+  onHide: function() {
+
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload: function () {
-    
+  onUnload: function() {
+
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function () {
-    
+  onPullDownRefresh: function() {
+
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function () {
-    
+  onReachBottom: function() {
+
   },
 
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
-    
+  onShareAppMessage: function() {
+
+  },
+  //获取轮播图数据
+  getSwiperList() {
+    request({
+      url: "https://www.fastmock.site/mock/dec21e0a575c58c9670aee9e8a38c6f8/OnlineShop/swiperdata"
+    }).then(result => {
+      // console.log(result);
+      this.setData({
+        swiperList: result.data.message
+      })
+    })
+  },
+  //获取导航菜单数据
+  getCateList() {
+    request({
+      url: "https://www.fastmock.site/mock/dec21e0a575c58c9670aee9e8a38c6f8/OnlineShop/catitems"
+    }).then(result => {
+      console.log(result);
+      this.setData({
+        catesList: result.data.message
+      })
+    })
   }
 })
+
