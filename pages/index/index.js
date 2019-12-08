@@ -3,6 +3,7 @@
 import {
   request
 } from "../../request/index.js";
+
 Page({
 
   /**
@@ -11,7 +12,8 @@ Page({
   data: {
     //轮播图数组
     swiperList: [],
-    catesList:[]
+    catesList:[],
+    floorList:[]
   },
 
   /**
@@ -31,6 +33,7 @@ Page({
     // });
     this.getSwiperList();
     this.getCateList();
+    this.getFloorList();
   },
   /**
    * 生命周期函数--监听页面初次渲染完成
@@ -91,14 +94,27 @@ Page({
       })
     })
   },
+  
   //获取导航菜单数据
   getCateList() {
     request({
       url: "https://www.fastmock.site/mock/dec21e0a575c58c9670aee9e8a38c6f8/OnlineShop/catitems"
     }).then(result => {
-      console.log(result);
+      // console.log(result);
       this.setData({
         catesList: result.data.message
+      })
+    })
+  },
+
+  //获取商品展示数据
+  getFloorList() {
+    request({
+      url: "https://www.fastmock.site/mock/dec21e0a575c58c9670aee9e8a38c6f8/OnlineShop/floordata"
+    }).then(result => {
+      // console.log(result);
+      this.setData({
+        floorList: result.data.message
       })
     })
   }
