@@ -23,7 +23,30 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-    this.getCates();
+    // this.getCates();
+    // 0.web中的本地存储和小程序中的本地存储的区别
+      // 1.方式不同
+        // 1.web：localStorage.setItem("key","value") localStorage.getItem("key")
+        // 2.小程序：wx.setStorageSync(key, data) wx.getStorageSync("key")
+      // 2.数据类型转换
+          // 1.web:不管存入的是啥数据，都会先调用toString()方法，把数据转换成字符串再存入
+          // 2.小程序:不存在类型转换的这个操作，存进去是啥就是啥
+    // 1.获取本地存储中的数据
+    const Cates = wx.getStorageSync("cates");
+    // 2.判断
+    if(!Cates){
+      //不存在数据
+      this.getCates();
+    }else{
+      // 存在数据
+      if(Date.now()-Cates.time>1000*10){
+        //重新发送请求
+        this.getCates();
+      }else{
+        // 可以使用旧数据
+        console.log("可以使用旧数据");
+      }
+    }
   },
 
   //获取分类数据
@@ -34,7 +57,8 @@ Page({
     }).then(res => {
       // console.log(res);
       this.Cates = res.data.message;
-
+      // 把接口数据存入本地
+      wx.setStorageSync("Cates",{time:Date.now(),data:this.Cates});
       //构建左侧大菜单数据
       let leftMenuList = this.Cates.map(v => v.cat_name);
       //构造右侧商品数据
