@@ -16,7 +16,9 @@ Page({
     //商品数据
     rightContent: [],
     //被点击的左侧菜单
-    currentIndex: 0
+    currentIndex: 0,
+    //右侧内容滚动条距离顶部的距离
+    scrollTop:0
   },
 
   /**
@@ -79,7 +81,8 @@ Page({
     let rightContent = this.Cates[index].children;
     this.setData({
       currentIndex: index,
-      rightContent
+      rightContent,
+      scrollTop: 0
     });
   }
 })
