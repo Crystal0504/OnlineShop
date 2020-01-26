@@ -90,7 +90,7 @@ Page({
     }).then(result => {
       // console.log(result);
       this.setData({
-        swiperList: result.data.message
+        swiperList: result
       })
     })
   },
@@ -102,7 +102,7 @@ Page({
     }).then(result => {
       // console.log(result);
       this.setData({
-        catesList: result.data.message
+        catesList: result
       })
     })
   },
@@ -114,7 +114,7 @@ Page({
     }).then(result => {
       // console.log(result);
       this.setData({
-        floorList: result.data.message
+        floorList: result
       })
     })
   }

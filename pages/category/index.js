@@ -5,6 +5,8 @@ import {
   request
 } from "../../request/index.js";
 
+import regeneratorRuntime from "../../lib/runtime/runtime";
+
 Page({
 
   /**
@@ -53,12 +55,27 @@ Page({
 
   //获取分类数据
 
-  getCates() {
-    request({
-      url: "https://api.zbztb.cn/api/public/v1/categories"
-    }).then(res => {
+  async getCates() {
+    // request({
+    //   url: "https://api.zbztb.cn/api/public/v1/categories"
+    // }).then(res => {
+    //   // console.log(res);
+    //   this.Cates = res.data.message;
+    //   // 把接口数据存入本地
+    //   wx.setStorageSync("Cates",{time:Date.now(),data:this.Cates});
+    //   //构建左侧大菜单数据
+    //   let leftMenuList = this.Cates.map(v => v.cat_name);
+    //   //构造右侧商品数据
+    //   let rightContent = this.Cates[0].children;
+    //   this.setData({
+    //     leftMenuList,
+    //     rightContent
+    //   });
+    // })
+
+    const res = await request({url:"https://api.zbztb.cn/api/public/v1/categories"});
       // console.log(res);
-      this.Cates = res.data.message;
+      this.Cates = res;
       // 把接口数据存入本地
       wx.setStorageSync("Cates",{time:Date.now(),data:this.Cates});
       //构建左侧大菜单数据
@@ -69,7 +86,6 @@ Page({
         leftMenuList,
         rightContent
       });
-    })
   },
   //左侧点击事件
   handleItemTap(e) {
