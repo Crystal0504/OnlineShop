@@ -47,6 +47,15 @@ Page({
     // console.log(options);
     this.QueryParams.cid = options.cid;
     this.getGoodsList();
+
+
+    wx.showLoading({
+      title: '加载中',
+    })
+    
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 5000)
   },
 
   // 获取商品列表数据
@@ -65,6 +74,9 @@ Page({
     this.setData({
       goodsList:[...this.data.goodsList,...res.goods]
     })
+
+    wx.stopPullDownRefresh();
+      
   },
 
   handeleTabsItemChange(e){
@@ -90,5 +102,14 @@ Page({
       this.QueryParams.pagenum++;
       this.getGoodsList();
     }
+  },
+  //下拉刷新
+  onPullDownRefresh(){
+    // console.log("111");
+    this.setData({
+      goodsList:[]
+    })
+    this.QueryParams.pagenum = 1;
+    this.getGoodsList();
   }
 })
