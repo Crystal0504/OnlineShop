@@ -1,22 +1,19 @@
 {
-  "message": [
-    {
+  "message": [{
       "cat_id": 1,
       "cat_name": "大家电",
       "cat_pid": 0,
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 3,
           "cat_name": "电视",
           "cat_pid": 1,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 5,
               "cat_name": "曲面电视",
               "cat_pid": 3,
@@ -153,8 +150,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 23,
               "cat_name": "变频空调",
               "cat_pid": 7,
@@ -299,8 +295,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 42,
               "cat_name": "洗衣机",
               "cat_pid": 30,
@@ -397,8 +392,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 57,
               "cat_name": "对开门冰箱",
               "cat_pid": 53,
@@ -497,16 +491,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 69,
           "cat_name": "圣诞狂欢",
           "cat_pid": 55,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 72,
               "cat_name": "护肤套装",
               "cat_pid": 69,
@@ -653,16 +645,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 89,
           "cat_name": "国际名牌",
           "cat_pid": 71,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 94,
               "cat_name": "swisse",
               "cat_pid": 89,
@@ -727,8 +717,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 102,
               "cat_name": "纸尿裤",
               "cat_pid": 91,
@@ -793,8 +782,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 110,
               "cat_name": "面膜",
               "cat_pid": 92,
@@ -859,8 +847,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 121,
               "cat_name": "美发护发",
               "cat_pid": 111,
@@ -901,8 +888,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 126,
               "cat_name": "提高免疫",
               "cat_pid": 112,
@@ -975,8 +961,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 136,
               "cat_name": "牛奶乳品",
               "cat_pid": 119,
@@ -1025,8 +1010,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 142,
               "cat_name": "平板电脑",
               "cat_pid": 134,
@@ -1147,8 +1131,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 158,
               "cat_name": "潮流女包",
               "cat_pid": 155,
@@ -1245,8 +1228,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 174,
               "cat_name": "生活日用",
               "cat_pid": 169,
@@ -1297,24 +1279,21 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 171,
           "cat_name": "苏宁房产",
           "cat_pid": 170,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
-              "cat_id": 182,
-              "cat_name": "恒大旅游",
-              "cat_pid": 171,
-              "cat_level": 2,
-              "cat_deleted": false,
-              "cat_icon": "https://api.zbztb.cn/full/2f552f38faa19856c8f9c276d17a7853c829bb96.jpg"
-            }
-          ]
+          "children": [{
+            "cat_id": 182,
+            "cat_name": "恒大旅游",
+            "cat_pid": 171,
+            "cat_level": 2,
+            "cat_deleted": false,
+            "cat_icon": "https://api.zbztb.cn/full/2f552f38faa19856c8f9c276d17a7853c829bb96.jpg"
+          }]
         },
         {
           "cat_id": 180,
@@ -1333,16 +1312,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 184,
           "cat_name": "大牌推荐",
           "cat_pid": 172,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 187,
               "cat_name": "荣耀",
               "cat_pid": 184,
@@ -1431,8 +1408,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 198,
               "cat_name": "拍照手机",
               "cat_pid": 186,
@@ -1505,8 +1481,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 208,
               "cat_name": "移动电源",
               "cat_pid": 199,
@@ -1603,8 +1578,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 222,
               "cat_name": "手机维修",
               "cat_pid": 212,
@@ -1629,8 +1603,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 225,
               "cat_name": "话费充值",
               "cat_pid": 213,
@@ -1671,8 +1644,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 231,
               "cat_name": "微单相机",
               "cat_pid": 228,
@@ -1825,8 +1797,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 251,
               "cat_name": "三脚架",
               "cat_pid": 245,
@@ -2053,16 +2024,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 281,
           "cat_name": "电脑整机",
           "cat_pid": 266,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 283,
               "cat_name": "轻薄本",
               "cat_pid": 281,
@@ -2127,8 +2096,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 293,
               "cat_name": "鼠标",
               "cat_pid": 290,
@@ -2177,8 +2145,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 299,
               "cat_name": "显示器",
               "cat_pid": 291,
@@ -2251,8 +2218,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 310,
               "cat_name": "无线网卡",
               "cat_pid": 301,
@@ -2301,8 +2267,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 316,
               "cat_name": "投影仪",
               "cat_pid": 302,
@@ -2351,8 +2316,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 326,
               "cat_name": "办公文具",
               "cat_pid": 319,
@@ -2403,16 +2367,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 324,
           "cat_name": "卫浴电器",
           "cat_pid": 321,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 333,
               "cat_name": "燃气热水器",
               "cat_pid": 324,
@@ -2477,8 +2439,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 343,
               "cat_name": "油烟机",
               "cat_pid": 336,
@@ -2551,8 +2512,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 352,
               "cat_name": "饮水机",
               "cat_pid": 338,
@@ -2603,16 +2563,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 358,
           "cat_name": "中外名酒",
           "cat_pid": 356,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 363,
               "cat_name": "啤酒",
               "cat_pid": 358,
@@ -2653,8 +2611,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 368,
               "cat_name": "酸牛奶",
               "cat_pid": 360,
@@ -2727,8 +2684,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 379,
               "cat_name": "水果",
               "cat_pid": 370,
@@ -2777,8 +2733,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 385,
               "cat_name": "巧克力",
               "cat_pid": 371,
@@ -2851,8 +2806,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 397,
               "cat_name": "大米",
               "cat_pid": 389,
@@ -2901,8 +2855,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 403,
               "cat_name": "进口大米",
               "cat_pid": 391,
@@ -2927,8 +2880,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 410,
               "cat_name": "罐头",
               "cat_pid": 394,
@@ -2953,8 +2905,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 414,
               "cat_name": "酱菜",
               "cat_pid": 405,
@@ -3005,16 +2956,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 409,
           "cat_name": "生活用纸",
           "cat_pid": 406,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 421,
               "cat_name": "手帕纸",
               "cat_pid": 409,
@@ -3055,8 +3004,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 427,
               "cat_name": "洗衣粉",
               "cat_pid": 413,
@@ -3145,8 +3093,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 439,
               "cat_name": "保暖用品",
               "cat_pid": 426,
@@ -3219,8 +3166,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 448,
               "cat_name": "毛巾浴巾",
               "cat_pid": 435,
@@ -3269,8 +3215,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 458,
               "cat_name": "宠物零食",
               "cat_pid": 451,
@@ -3321,16 +3266,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 457,
           "cat_name": "中式厨房",
           "cat_pid": 455,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 465,
               "cat_name": "电磁炉",
               "cat_pid": 457,
@@ -3467,8 +3410,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 483,
               "cat_name": "烤箱",
               "cat_pid": 475,
@@ -3591,16 +3533,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 499,
           "cat_name": "环境电器",
           "cat_pid": 492,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 503,
               "cat_name": "欧式快热炉",
               "cat_pid": 499,
@@ -3713,8 +3653,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 518,
               "cat_name": "扫地机器人",
               "cat_pid": 501,
@@ -3765,16 +3704,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 524,
           "cat_name": "理容造型",
           "cat_pid": 511,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 528,
               "cat_name": "美容器",
               "cat_pid": 524,
@@ -3887,8 +3824,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 544,
               "cat_name": "牙刷头",
               "cat_pid": 526,
@@ -3937,8 +3873,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 550,
               "cat_name": "按摩器",
               "cat_pid": 542,
@@ -4005,16 +3940,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 558,
           "cat_name": "锅具",
           "cat_pid": 543,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 561,
               "cat_name": "蒸锅",
               "cat_pid": 558,
@@ -4151,8 +4084,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 579,
               "cat_name": "菜刀",
               "cat_pid": 573,
@@ -4217,8 +4149,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 588,
               "cat_name": "保温瓶/桶",
               "cat_pid": 583,
@@ -4261,16 +4192,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 593,
           "cat_name": "灯具灯饰",
           "cat_pid": 591,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 597,
               "cat_name": "吸顶灯",
               "cat_pid": 593,
@@ -4407,8 +4336,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 615,
               "cat_name": "沐浴/花洒",
               "cat_pid": 604,
@@ -4529,8 +4457,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 631,
               "cat_name": "插座",
               "cat_pid": 617,
@@ -4627,8 +4554,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 645,
               "cat_name": "釉面砖",
               "cat_pid": 638,
@@ -4725,8 +4651,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 657,
               "cat_name": "床垫",
               "cat_pid": 642,
@@ -4823,8 +4748,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 670,
               "cat_name": "电视柜",
               "cat_pid": 664,
@@ -4889,8 +4813,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 680,
               "cat_name": "书柜书架",
               "cat_pid": 677,
@@ -4939,8 +4862,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 687,
               "cat_name": "餐边柜",
               "cat_pid": 678,
@@ -5005,8 +4927,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 695,
               "cat_name": "暖气片/地暖",
               "cat_pid": 684,
@@ -5071,8 +4992,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 704,
               "cat_name": "A家家具",
               "cat_pid": 696,
@@ -5195,16 +5115,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 712,
           "cat_name": "孕婴奶粉",
           "cat_pid": 709,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 723,
               "cat_name": "三段奶粉",
               "cat_pid": 712,
@@ -5253,8 +5171,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 731,
               "cat_name": "S号",
               "cat_pid": 724,
@@ -5327,8 +5244,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 741,
               "cat_name": "果泥",
               "cat_pid": 726,
@@ -5449,8 +5365,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 756,
               "cat_name": "洗发沐浴",
               "cat_pid": 740,
@@ -5547,8 +5462,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 770,
               "cat_name": "奶嘴",
               "cat_pid": 766,
@@ -5669,8 +5583,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 785,
               "cat_name": "6至12月",
               "cat_pid": 768,
@@ -5767,8 +5680,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 799,
               "cat_name": "婴儿床",
               "cat_pid": 790,
@@ -5841,8 +5753,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 808,
               "cat_name": "孕妇服饰",
               "cat_pid": 792,
@@ -5963,8 +5874,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 824,
               "cat_name": "雀巢",
               "cat_pid": 814,
@@ -6231,16 +6141,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 854,
           "cat_name": "精选",
           "cat_pid": 852,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 862,
               "cat_name": "衬衫",
               "cat_pid": 854,
@@ -6321,8 +6229,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 871,
               "cat_name": "夹克",
               "cat_pid": 857,
@@ -6371,8 +6278,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 880,
               "cat_name": "卫衣",
               "cat_pid": 873,
@@ -6405,8 +6311,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 884,
               "cat_name": "休闲裤",
               "cat_pid": 877,
@@ -6431,8 +6336,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 887,
               "cat_name": "千纸鹤",
               "cat_pid": 878,
@@ -6531,16 +6435,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 900,
           "cat_name": "时尚男鞋",
           "cat_pid": 889,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 904,
               "cat_name": "男靴",
               "cat_pid": 900,
@@ -6605,8 +6507,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 913,
               "cat_name": "奥康",
               "cat_pid": 901,
@@ -6681,24 +6582,21 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 922,
           "cat_name": "精选",
           "cat_pid": 912,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
-              "cat_id": 926,
-              "cat_name": "毛呢大衣",
-              "cat_pid": 922,
-              "cat_level": 2,
-              "cat_deleted": false,
-              "cat_icon": "https://api.zbztb.cn/full/abf2d7438657868095850064e3179ead587e86fb.jpg"
-            }
-          ]
+          "children": [{
+            "cat_id": 926,
+            "cat_name": "毛呢大衣",
+            "cat_pid": 922,
+            "cat_level": 2,
+            "cat_deleted": false,
+            "cat_icon": "https://api.zbztb.cn/full/abf2d7438657868095850064e3179ead587e86fb.jpg"
+          }]
         },
         {
           "cat_id": 923,
@@ -6707,8 +6605,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 927,
               "cat_name": "卫衣",
               "cat_pid": 923,
@@ -6829,8 +6726,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 942,
               "cat_name": "茵曼",
               "cat_pid": 924,
@@ -6897,16 +6793,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 951,
           "cat_name": "时尚女鞋",
           "cat_pid": 948,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 954,
               "cat_name": "马丁靴",
               "cat_pid": 951,
@@ -6971,8 +6865,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 967,
               "cat_name": "他她",
               "cat_pid": 961,
@@ -7007,24 +6900,21 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 964,
           "cat_name": "汽车整车",
           "cat_pid": 962,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
-              "cat_id": 972,
-              "cat_name": "平安车管家",
-              "cat_pid": 964,
-              "cat_level": 2,
-              "cat_deleted": false,
-              "cat_icon": "https://api.zbztb.cn/full/9de72570659becc6314ce487bd77bd7b23f129a8.jpg"
-            }
-          ]
+          "children": [{
+            "cat_id": 972,
+            "cat_name": "平安车管家",
+            "cat_pid": 964,
+            "cat_level": 2,
+            "cat_deleted": false,
+            "cat_icon": "https://api.zbztb.cn/full/9de72570659becc6314ce487bd77bd7b23f129a8.jpg"
+          }]
         },
         {
           "cat_id": 965,
@@ -7033,8 +6923,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 974,
               "cat_name": "燃油添加剂",
               "cat_pid": 965,
@@ -7131,8 +7020,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 988,
               "cat_name": "玻璃水",
               "cat_pid": 980,
@@ -7181,8 +7069,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 997,
               "cat_name": "电子狗",
               "cat_pid": 981,
@@ -7223,8 +7110,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1002,
               "cat_name": "挂饰/摆饰",
               "cat_pid": 994,
@@ -7275,16 +7161,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 996,
           "cat_name": "热门推荐",
           "cat_pid": 995,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1009,
               "cat_name": "哑铃",
               "cat_pid": 996,
@@ -7349,8 +7233,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1018,
               "cat_name": "运动夹克",
               "cat_pid": 1012,
@@ -7423,8 +7306,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1027,
               "cat_name": "仰卧板",
               "cat_pid": 1014,
@@ -7513,8 +7395,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1040,
               "cat_name": "公路车",
               "cat_pid": 1028,
@@ -7587,8 +7468,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1049,
               "cat_name": "篮球",
               "cat_pid": 1029,
@@ -7661,8 +7541,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1060,
               "cat_name": "登山鞋",
               "cat_pid": 1051,
@@ -7711,8 +7590,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1067,
               "cat_name": "钓鱼工具",
               "cat_pid": 1053,
@@ -7785,8 +7663,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1076,
               "cat_name": "休闲板鞋",
               "cat_pid": 1066,
@@ -7835,8 +7712,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1082,
               "cat_name": "望远镜",
               "cat_pid": 1075,
@@ -7909,8 +7785,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1093,
               "cat_name": "双肩背包",
               "cat_pid": 1088,
@@ -7959,8 +7834,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1099,
               "cat_name": "阿迪达斯",
               "cat_pid": 1089,
@@ -8035,16 +7909,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 1107,
           "cat_name": "面部护理",
           "cat_pid": 1106,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1112,
               "cat_name": "乳液",
               "cat_pid": 1107,
@@ -8109,8 +7981,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1120,
               "cat_name": "护发素",
               "cat_pid": 1108,
@@ -8159,8 +8030,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1128,
               "cat_name": "颈霜",
               "cat_pid": 1123,
@@ -8233,8 +8103,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1138,
               "cat_name": "牙刷",
               "cat_pid": 1125,
@@ -8275,8 +8144,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1145,
               "cat_name": "男士香水",
               "cat_pid": 1129,
@@ -8301,8 +8169,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1149,
               "cat_name": "护垫",
               "cat_pid": 1141,
@@ -8327,8 +8194,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1152,
               "cat_name": "美妆套装",
               "cat_pid": 1143,
@@ -8401,8 +8267,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1161,
               "cat_name": "苏菲",
               "cat_pid": 1146,
@@ -8453,16 +8318,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 1165,
           "cat_name": "文胸",
           "cat_pid": 1163,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1171,
               "cat_name": "聚拢文胸",
               "cat_pid": 1165,
@@ -8527,8 +8390,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1181,
               "cat_name": "男士睡衣",
               "cat_pid": 1169,
@@ -8577,8 +8439,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1187,
               "cat_name": "男士内裤",
               "cat_pid": 1178,
@@ -8651,8 +8512,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1196,
               "cat_name": "男袜",
               "cat_pid": 1179,
@@ -8701,8 +8561,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1205,
               "cat_name": "基础内衣",
               "cat_pid": 1200,
@@ -8751,8 +8610,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1211,
               "cat_name": "围巾",
               "cat_pid": 1201,
@@ -8801,8 +8659,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1217,
               "cat_name": "南极人",
               "cat_pid": 1202,
@@ -8877,16 +8734,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 1227,
           "cat_name": "婴幼玩具",
           "cat_pid": 1219,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1231,
               "cat_name": "积木",
               "cat_pid": 1227,
@@ -8951,8 +8806,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1241,
               "cat_name": "绳类/球类",
               "cat_pid": 1230,
@@ -9001,8 +8855,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1247,
               "cat_name": "布艺玩具",
               "cat_pid": 1238,
@@ -9051,8 +8904,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1254,
               "cat_name": "电动玩具",
               "cat_pid": 1239,
@@ -9101,8 +8953,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1261,
               "cat_name": "卫衣",
               "cat_pid": 1249,
@@ -9199,8 +9050,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1273,
               "cat_name": "运动鞋",
               "cat_pid": 1259,
@@ -9273,8 +9123,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1283,
               "cat_name": "隔尿垫",
               "cat_pid": 1278,
@@ -9347,8 +9196,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1295,
               "cat_name": "十月妈咪",
               "cat_pid": 1291,
@@ -9471,16 +9319,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 1309,
           "cat_name": "黄金珠宝",
           "cat_pid": 1292,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1311,
               "cat_name": "银饰",
               "cat_pid": 1309,
@@ -9569,8 +9415,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1323,
               "cat_name": "手链",
               "cat_pid": 1313,
@@ -9619,8 +9464,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1332,
               "cat_name": "邮票",
               "cat_pid": 1325,
@@ -9661,8 +9505,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1338,
               "cat_name": "钻石快线",
               "cat_pid": 1326,
@@ -9761,16 +9604,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 1349,
           "cat_name": "智能酷玩",
           "cat_pid": 1330,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1355,
               "cat_name": "智能手环",
               "cat_pid": 1349,
@@ -9803,8 +9644,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1359,
               "cat_name": "播放器",
               "cat_pid": 1351,
@@ -9853,8 +9693,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1365,
               "cat_name": "智能摄像头",
               "cat_pid": 1352,
@@ -9879,8 +9718,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1368,
               "cat_name": "智能机器人",
               "cat_pid": 1353,
@@ -9929,8 +9767,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1377,
               "cat_name": "小蚁",
               "cat_pid": 1371,
@@ -9981,16 +9818,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 1374,
           "cat_name": "精品钟表",
           "cat_pid": 1372,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1384,
               "cat_name": "情侣手表",
               "cat_pid": 1374,
@@ -10055,8 +9890,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1394,
               "cat_name": "近视镜",
               "cat_pid": 1388,
@@ -10129,8 +9963,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1404,
               "cat_name": "天梭",
               "cat_pid": 1393,
@@ -10229,16 +10062,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 1417,
           "cat_name": "功能箱包",
           "cat_pid": 1402,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1419,
               "cat_name": "背包",
               "cat_pid": 1417,
@@ -10295,8 +10126,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1429,
               "cat_name": "双肩包",
               "cat_pid": 1421,
@@ -10345,8 +10175,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1435,
               "cat_name": "单肩包",
               "cat_pid": 1422,
@@ -10395,8 +10224,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1443,
               "cat_name": "七匹狼",
               "cat_pid": 1427,
@@ -10495,16 +10323,14 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": "",
-      "children": [
-        {
+      "children": [{
           "cat_id": 1444,
           "cat_name": "礼品",
           "cat_pid": 1441,
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1457,
               "cat_name": "电子烟",
               "cat_pid": 1444,
@@ -10569,8 +10395,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1466,
               "cat_name": "邮票",
               "cat_pid": 1458,
@@ -10611,8 +10436,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
+          "children": [{
               "cat_id": 1471,
               "cat_name": "电子鼓",
               "cat_pid": 1459,
@@ -10695,8 +10519,7 @@
       "cat_level": 0,
       "cat_deleted": false,
       "cat_icon": null,
-      "children": [
-        {
+      "children": [{
           "cat_id": 2,
           "cat_name": "电视",
           "cat_pid": 1480,
@@ -10815,16 +10638,14 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": "",
-          "children": [
-            {
-              "cat_id": 921,
-              "cat_name": "羽绒服",
-              "cat_pid": 853,
-              "cat_level": 2,
-              "cat_deleted": false,
-              "cat_icon": "https://api.zbztb.cn/full/797808fbd2af0618e6c529ff2a0d566ad0a45354.jpg"
-            }
-          ]
+          "children": [{
+            "cat_id": 921,
+            "cat_name": "羽绒服",
+            "cat_pid": 853,
+            "cat_level": 2,
+            "cat_deleted": false,
+            "cat_icon": "https://api.zbztb.cn/full/797808fbd2af0618e6c529ff2a0d566ad0a45354.jpg"
+          }]
         },
         {
           "cat_id": 895,
@@ -10913,8 +10734,7 @@
           "cat_level": 1,
           "cat_deleted": false,
           "cat_icon": null,
-          "children": [
-            {
+          "children": [{
               "cat_id": 4,
               "cat_name": "4K超高清",
               "cat_pid": 1481,
@@ -10993,16 +10813,14 @@
               "cat_level": 2,
               "cat_deleted": false,
               "cat_icon": "https://api.zbztb.cn/full/920914b097bee73e59454cc13b7941b4a64e6fc9.jpg",
-              "children": [
-                {
-                  "cat_id": 1110,
-                  "cat_name": "护肤套装",
-                  "cat_pid": 109,
-                  "cat_level": 2,
-                  "cat_deleted": false,
-                  "cat_icon": "https://api.zbztb.cn/full/37e2413fad20445374180542fce4d06d0cb38545.jpg"
-                }
-              ]
+              "children": [{
+                "cat_id": 1110,
+                "cat_name": "护肤套装",
+                "cat_pid": 109,
+                "cat_level": 2,
+                "cat_deleted": false,
+                "cat_icon": "https://api.zbztb.cn/full/37e2413fad20445374180542fce4d06d0cb38545.jpg"
+              }]
             },
             {
               "cat_id": 120,
