@@ -19,7 +19,7 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function(options) {
+  onLoad: function (options) {
     const {
       goods_id
     } = options;
@@ -55,15 +55,15 @@ Page({
     });
 
   },
-  handleCartAdd(){
+  handleCartAdd() {
     // console.log("111");
-    let cart = wx.getStorageSync("cart")||[];
-    let index = cart.findIndex(v=>v.goods_id===this.GoodsInfo.goods_id);
-    if(index===-1){
+    let cart = wx.getStorageSync("cart") || [];
+    let index = cart.findIndex(v => v.goods_id === this.GoodsInfo.goods_id);
+    if (index === -1) {
       // 购物车不存在
       this.GoodsInfo.num = 1;
       cart.push(this.GoodsInfo);
-    }else{
+    } else {
       // 购物车中已有
       cart[index].num++;
     }
@@ -73,6 +73,6 @@ Page({
       icon: 'success',
       mask: true
     });
-      
+
   }
 })
