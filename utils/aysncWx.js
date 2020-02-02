@@ -1,5 +1,5 @@
-export const getSetting=()=>{
-    return new Promise((resolve,reject)=>{
+export const getSetting = () => {
+    return new Promise((resolve, reject) => {
         wx.getSetting({
             success: (result) => {
                 resolve(result);
@@ -8,12 +8,12 @@ export const getSetting=()=>{
                 reject(err);
             },
         });
-          
+
     })
 }
 
-export const chooseAddress=()=>{
-    return new Promise((resolve,reject)=>{
+export const chooseAddress = () => {
+    return new Promise((resolve, reject) => {
         wx.chooseAddress({
             success: (result) => {
                 resolve(result);
@@ -22,12 +22,12 @@ export const chooseAddress=()=>{
                 reject(err);
             },
         });
-          
+
     })
 }
 
-export const openSetting=()=>{
-    return new Promise((resolve,reject)=>{
+export const openSetting = () => {
+    return new Promise((resolve, reject) => {
         wx.openSetting({
             success: (result) => {
                 resolve(result);
@@ -36,6 +36,6 @@ export const openSetting=()=>{
                 reject(err);
             },
         });
-          
+
     })
 }
