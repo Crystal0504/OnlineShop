@@ -4,9 +4,9 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    tabs:{
-      type:Array,
-      value:[]
+    tabs: {
+      type: Array,
+      value: []
     }
   },
 
@@ -21,10 +21,14 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    handleItemTap(e){
-      const {index} = e.currentTarget.dataset;
+    handleItemTap(e) {
+      const {
+        index
+      } = e.currentTarget.dataset;
       // console.log(index);
-      this.triggerEvent("tabsItemChange",{index});
+      this.triggerEvent("tabsItemChange", {
+        index
+      });
     }
   }
 })
