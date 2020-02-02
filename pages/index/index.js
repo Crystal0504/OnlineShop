@@ -1,5 +1,4 @@
 //index.js
-//0.引入用来发送请求的方法
 import {
   request
 } from "../../request/index.js";
@@ -12,8 +11,8 @@ Page({
   data: {
     //轮播图数组
     swiperList: [],
-    catesList:[],
-    floorList:[]
+    catesList: [],
+    floorList: []
   },
 
   /**
@@ -21,16 +20,6 @@ Page({
    */
   onLoad: function(options) {
     //1.发送异步请求获取数据
-    //优化手段可以通过ES6的promise来解决
-    // wx.request({
-    //   url: 'https://www.fastmock.site/mock/dec21e0a575c58c9670aee9e8a38c6f8/OnlineShop/swiperdata',
-    //   success:(result)=>{
-    //     // console.log(result);
-    //     this.setData({
-    //       swiperList:result.data.message
-    //     })
-    //   }
-    // });
     this.getSwiperList();
     this.getCateList();
     this.getFloorList();
@@ -94,7 +83,7 @@ Page({
       })
     })
   },
-  
+
   //获取导航菜单数据
   getCateList() {
     request({
@@ -119,4 +108,3 @@ Page({
     })
   }
 })
-
