@@ -8,12 +8,35 @@ import regeneratorRuntime from "../../lib/runtime/runtime";
 
 Page({
   data: {
-    address: {}
+    address: {},
+    cart: [],
+    allChecked: false,
+    totalPrice:0,
+    totalNum:0
   },
   onShow() {
     const address = wx.getStorageSync("address");
+    const cart = wx.getStorageSync("cart")||[];
+    //全选按钮
+    // const allChecked = cart.length?cart.every(v=>v.checked):false;
+    let allChecked = true;
+    let totalPrice = 0;
+    let totalNum = 0;
+    cart.forEach(v => {
+      if(v.checked){
+        totalPrice+=v.num*v.goods_price;
+        totalNum+=v.num;
+      }else{
+        allChecked = false;
+      }
+    });
+    allChecked = cart.length!=0?allChecked:false;
     this.setData({
-      address
+      address,
+      cart,
+      allChecked,
+      totalPrice,
+      totalNum
     })
   },
 
