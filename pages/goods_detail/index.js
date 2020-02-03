@@ -62,6 +62,8 @@ Page({
     if (index === -1) {
       // 购物车不存在
       this.GoodsInfo.num = 1;
+      this.GoodsInfo.checked = true;
+
       cart.push(this.GoodsInfo);
     } else {
       // 购物车中已有
