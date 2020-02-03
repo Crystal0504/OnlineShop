@@ -21,7 +21,7 @@
                 </checkbox-group>
             </view>
             <navigator class="cart_img_wrap">
-                <image class="" mode="widthFix" src="{{item.goods_small_logo?item.goods_small_logo:'https://ww1.sinaimg.cn/large/007rAy9hgy1g24by9t530j30i20i2glm.jpg'}}"/>
+                <image class="" mode="widthFix" src="{{item.goods_small_logo?item.goods_small_logo:'https://ww1.sinaimg.cn/large/007rAy9hgy1g24by9t530j30i20i2glm.jpg'}}" />
             </navigator>
             <view class="cart_info_wrap">
                 <view class="goods_name">{{item.goods_name}}</view>
@@ -42,18 +42,13 @@
         <checkbox-group bindchange="">
             <checkbox checked="{{allChecked}}">全选</checkbox>
         </checkbox-group>
-          
     </view>
     <view class="total_price_wrap">
         <view class="total_price">
-            合计：<text class="total_price_text">￥{{totalPrice}}</text>
+            合计：
+            <text class="total_price_text">￥{{totalPrice}}</text>
         </view>
-        <view>
-            包含运费
-        </view>
-          
+        <view>包含运费</view>
     </view>
-    <view class="order_pay_wrap">
-        结算({{totalNum}})
-    </view>
+    <view class="order_pay_wrap">结算({{totalNum}})</view>
 </view>
