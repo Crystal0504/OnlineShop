@@ -85,6 +85,14 @@ page {
   justify-content: center;
   align-items: center;
 }
+.cart_content .cart_main .cart_empty_text {
+  margin-top: 100rpx;
+  color: var(--themeColor);
+  font-size: 34rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .footer_tool {
   position: fixed;
   bottom: 0;
