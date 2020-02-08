@@ -2,30 +2,25 @@
 page {
   padding-bottom: 90rpx;
 }
-
 .detail_swiper swiper {
   height: 65vw;
   text-align: center;
 }
-
 .detail_swiper swiper image {
   width: 60%;
 }
-
 .goods_price {
   padding: 15rpx;
   font-size: 32rpx;
   font-weight: 600;
   color: var(--themeColor);
 }
-
 .goods_name_row {
   display: flex;
   border-top: 5rpx solid #dedede;
   border-bottom: 5rpx solid #dedede;
   padding: 10rpx 0;
 }
-
 .goods_name_row .goods_name {
   flex: 5;
   color: #000;
@@ -36,7 +31,6 @@ page {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
-
 .goods_name_row .goods_collect {
   flex: 1;
   display: flex;
@@ -45,14 +39,15 @@ page {
   justify-content: center;
   border-left: 1rpx solid #000;
 }
-
+.goods_name_row .goods_collect .icon-shoucang2 {
+  color: orangered;
+}
 .goods_info .goods_info_title {
   font-size: 32rpx;
   color: var(--themeColor);
   font-weight: 600;
   padding: 20rpx;
 }
-
 .btm_tool {
   border-top: 1rpx solid #ccc;
   position: fixed;
@@ -63,7 +58,6 @@ page {
   background-color: #fff;
   display: flex;
 }
-
 .btm_tool .tool_item {
   flex: 1;
   display: flex;
@@ -73,7 +67,6 @@ page {
   font-size: 24rpx;
   position: relative;
 }
-
 .btm_tool .tool_item button {
   position: absolute;
   top: 0;
@@ -82,7 +75,6 @@ page {
   height: 100%;
   opacity: 0;
 }
-
 .btm_tool .btn_cart {
   flex: 2;
   display: flex;
@@ -94,7 +86,6 @@ page {
   font-size: 30rpx;
   font-weight: 600;
 }
-
 .btm_tool .btn_buy {
   flex: 2;
   display: flex;

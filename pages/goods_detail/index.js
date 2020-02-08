@@ -12,19 +12,27 @@ Page({
   data: {
     goodsObj: {
 
-    }
+    },
+    isCollect: false
   },
   GoodsInfo: {},
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onShow: function () {
+    let pages = getCurrentPages();
+    let currentPages = pages[pages.length - 1];
+    let options = currentPages.options;
+
+
     const {
       goods_id
     } = options;
     // console.log(goods_id);
     this.getGoodsDetail(goods_id);
+
+
 
   },
   async getGoodsDetail(goods_id) {
@@ -35,6 +43,10 @@ Page({
       }
     });
     this.GoodsInfo = goodsObj;
+
+    //获取缓存中收藏的商品
+    let collect = wx.getStorageSync("collect") || [];
+    let isCollect = collect.some(v => v.goods_id === this.GoodsInfo.goods_id);
     // console.log(res);
     this.setData({
       goodsObj: {
@@ -42,7 +54,8 @@ Page({
         goods_price: goodsObj.goods_price,
         goods_introduce: goodsObj.goods_introduce.replace(/\.webp/g, '.jpg'),
         pics: goodsObj.pics
-      }
+      },
+      isCollect
     })
   },
   handlePrevewImage(e) {
@@ -76,5 +89,33 @@ Page({
       mask: true
     });
 
+  },
+  //收藏
+  handleCollect() {
+    let isCollect = false;
+    let collect = wx.getStorageSync("collect") || [];
+    let index = collect.findIndex(v => v.goods_id === this.GoodsInfo.goods_id);
+    if (index !== -1) {
+      collect.splice(index, 1);
+      isCollect = false;
+      wx.showToast({
+        title: '已取消收藏',
+        icon: 'success',
+        mask: true
+      });
+
+    } else {
+      collect.push(this.GoodsInfo);
+      isCollect = true;
+      wx.showToast({
+        title: '已收藏',
+        icon: 'success',
+        mask: true
+      });
+    }
+    wx.setStorageSync("collect", collect);
+    this.setData({
+      isCollect
+    })
   }
 })
