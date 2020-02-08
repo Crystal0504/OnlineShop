@@ -1,5 +1,7 @@
 {
     "less.compile": {
         "outExt": ".wxss"
-    }
+    },
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true
 }
